@@ -10,7 +10,7 @@ All four repositories contain AI-assisted personal work. The three smaller proje
 
 The flagship connects patient consent and records to care-team tasks, clinical execution and hospital operations across a shared Java API and React/Expo clients. Review server-enforced authorization, relational migrations, provenance and workflow state before the UI details. The README includes synthetic screenshots and local setup.
 
-Current portfolio checks: 63 active backend tests passed, 31 optional PostgreSQL cases skipped; clean web installation, types, lint and production build passed; mobile types and 18 tests passed. Historical browser and PostgreSQL reports are explicitly distinguished from this review. No real patient deployment or native-device verification is claimed.
+Current portfolio checks: 63 local backend tests passed, with 31 PostgreSQL cases skipped locally. The [hosted verification](https://github.com/abhijithviswanathan/global-health-passport/actions/runs/34668275365) then passed the backend with real PostgreSQL, web types/lint/build and mobile types/tests on fresh runners. Mobile has 18 behavior tests. Historical browser reports are explicitly distinguished from this review. No real patient deployment or native-device verification is claimed.
 
 ## Durable Queue
 
