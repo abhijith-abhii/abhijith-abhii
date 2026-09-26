@@ -1,0 +1,63 @@
+name: Refresh profile visuals
+
+on:
+  schedule:
+    - cron: '37 5,17 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/render_stats.py
+      - .github/workflows/profile-assets.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Render public activity cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: python3 scripts/render_stats.py
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=%230969da
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2361dafb
+
+      - name: Publish generated SVGs
+        shell: bash
+        run: |
+          set -euo pipefail
+          asset_dir="${RUNNER_TEMP}/profile-visuals"
+          mkdir -p "$asset_dir"
+          cp dist/*.svg "$asset_dir/"
+          git fetch origin '+refs/heads/*:refs/remotes/origin/*' --depth=1
+          if git show-ref --verify --quiet refs/remotes/origin/output; then
+            git switch --force-create output origin/output
+          else
+            git switch --orphan output
+          fi
+          cp "$asset_dir/"*.svg .
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.svg'
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh profile visuals'
+            git push origin HEAD:output
+          fi
