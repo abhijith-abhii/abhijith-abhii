@@ -39,7 +39,17 @@ My internship background includes Node.js authentication with Azure Active Direc
 | **[Global Health Passport](https://github.com/abhijith-abhii/global-health-passport)** | Java/Spring Boot, React/TypeScript and Expo; consent, provenance, care teams and hospital workflows using synthetic data | [Architecture, screenshots and setup](https://github.com/abhijith-abhii/global-health-passport#readme) |
 | [Durable Queue](https://github.com/abhijith-abhii/durable-queue) | Persistent SQLite jobs, leases, retries and stale-worker fencing | [Demo and design](https://github.com/abhijith-abhii/durable-queue#readme) |
 | [Contract Pipeline](https://github.com/abhijith-abhii/contract-pipeline) | Contract-driven CSV validation, quarantine, atomic ingestion and replay protection | [Demo and design](https://github.com/abhijith-abhii/contract-pipeline#readme) |
-| [DocSearch](https://github.com/abhijith-abhii/docsearch) | Incremental Markdown indexing, SQLite FTS5 search and source line references | [Demo and design](https://github.com/abhijith-abhii/docsearch#readme) |
+| [DocSearch Atlas](https://github.com/abhijith-abhii/docsearch) | Incremental FTS5 indexing, source-linked runbook retrieval and optional local model inference | [Demo, evidence and setup](https://github.com/abhijith-abhii/docsearch#readme) |
+
+<!-- verified-engineering-collection:start -->
+## Engineering collection
+
+[Explore my 25-project portfolio](https://abhijith-abhii.github.io/portfolio-index/) across software engineering, data science, AI, cloud and analytics. Each repository includes reproducible setup, recorded checks and a learning guide. These are AI-assisted portfolio projects, with synthetic data and execution limits identified explicitly.
+
+A few starting points: **[NoteMesh](https://github.com/abhijith-abhii/notemesh)** for saved-note synchronization and conflict handling; **[Retention Studio](https://github.com/abhijith-abhii/retention-studio)** for a calibrated churn review workflow; **[Shipyard](https://github.com/abhijith-abhii/shipyard)** for verified container delivery. Application demos run locally; the public catalog contains screenshots and recorded evidence.
+
+[Full categorized index](https://github.com/abhijith-abhii/portfolio-index) · [Design decisions and project learning guides](https://github.com/abhijith-abhii/portfolio-index/blob/main/PRESENTATION_GUIDE.md)
+<!-- verified-engineering-collection:end -->
 
 ## How I am learning
 
