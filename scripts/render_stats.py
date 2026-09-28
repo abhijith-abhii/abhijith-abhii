@@ -327,7 +327,7 @@ def write_cards(output_dir, cards):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--username", default=os.environ.get("PROFILE_USERNAME", "abhijithviswanathan"))
+    parser.add_argument("--username", default=os.environ.get("PROFILE_USERNAME", "abhijith-abhii"))
     parser.add_argument("--output-dir", type=Path, default=Path(__file__).resolve().parents[1] / "dist")
     args = parser.parse_args()
     if not re.fullmatch(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?", args.username):
