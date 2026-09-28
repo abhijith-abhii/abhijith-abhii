@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="390" height="200" viewBox="0 0 390 200" role="img" aria-labelledby="card-title card-description">
 <title id="card-title">Languages in public code</title>
-<desc id="card-description">Language bytes across owned public non-fork repositories: TypeScript: 851,276 bytes (50.1%); Java: 548,861 bytes (32.3%); Python: 172,439 bytes (10.1%); CSS: 62,427 bytes (3.7%); JavaScript: 61,668 bytes (3.6%); Shell: 1,353 bytes (0.1%); Dockerfile: 1,332 bytes (0.1%); HTML: 436 bytes (0.0%). This measures code volume, not skill or time spent.</desc>
+<desc id="card-description">Language bytes across owned public non-fork repositories: HTML: 4,880,878 bytes (68.2%); TypeScript: 851,276 bytes (11.9%); Java: 548,861 bytes (7.7%); Python: 498,039 bytes (7.0%); Jupyter Notebook: 205,460 bytes (2.9%); JavaScript: 66,898 bytes (0.9%); CSS: 62,427 bytes (0.9%); HCL: 37,126 bytes (0.5%); Shell: 4,833 bytes (0.1%); Dockerfile: 2,011 bytes (0.0%); Makefile: 319 bytes (0.0%). This measures code volume, not skill or time spent.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}</style>
 <rect x="0.5" y="0.5" width="389" height="199" rx="14" fill="#0d1117" stroke="#30363d"/>
 <path d="M21 53H369" stroke="#161b22" stroke-width="2"/>
 <text x="21" y="33" font-size="16" fill="#61dafb" font-weight="600" text-anchor="start">Languages in public code</text>
 <defs><clipPath id="language-bar"><rect x="22" y="72" width="346" height="12" rx="6"/></clipPath></defs>
 <g clip-path="url(#language-bar)">
-<rect x="22.000" y="72" width="173.281" height="12" fill="#3178c6"/>
-<rect x="195.281" y="72" width="111.723" height="12" fill="#b07219"/>
-<rect x="307.004" y="72" width="35.101" height="12" fill="#3572a5"/>
-<rect x="342.105" y="72" width="12.707" height="12" fill="#563d7c"/>
-<rect x="354.812" y="72" width="13.188" height="12" fill="#8b949e"/>
+<rect x="22.000" y="72" width="235.925" height="12" fill="#e34c26"/>
+<rect x="257.925" y="72" width="41.148" height="12" fill="#3178c6"/>
+<rect x="299.073" y="72" width="26.530" height="12" fill="#b07219"/>
+<rect x="325.603" y="72" width="24.074" height="12" fill="#3572a5"/>
+<rect x="349.677" y="72" width="18.323" height="12" fill="#8b949e"/>
 </g>
-<circle cx="26" cy="107" r="4" fill="#3178c6"/>
-<text x="36" y="111" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">TypeScript</text>
-<text x="184" y="111" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">50.1%</text>
-<circle cx="205" cy="107" r="4" fill="#b07219"/>
-<text x="215" y="111" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">Java</text>
-<text x="363" y="111" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">32.3%</text>
-<circle cx="26" cy="132" r="4" fill="#3572a5"/>
-<text x="36" y="136" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">Python</text>
-<text x="184" y="136" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">10.1%</text>
-<circle cx="205" cy="132" r="4" fill="#563d7c"/>
-<text x="215" y="136" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">CSS</text>
-<text x="363" y="136" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">3.7%</text>
+<circle cx="26" cy="107" r="4" fill="#e34c26"/>
+<text x="36" y="111" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">HTML</text>
+<text x="184" y="111" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">68.2%</text>
+<circle cx="205" cy="107" r="4" fill="#3178c6"/>
+<text x="215" y="111" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">TypeScript</text>
+<text x="363" y="111" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">11.9%</text>
+<circle cx="26" cy="132" r="4" fill="#b07219"/>
+<text x="36" y="136" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">Java</text>
+<text x="184" y="136" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">7.7%</text>
+<circle cx="205" cy="132" r="4" fill="#3572a5"/>
+<text x="215" y="136" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">Python</text>
+<text x="363" y="136" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">7.0%</text>
 <circle cx="26" cy="157" r="4" fill="#8b949e"/>
 <text x="36" y="161" font-size="11" fill="#c9d1d9" font-weight="400" text-anchor="start">Other</text>
-<text x="184" y="161" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">3.8%</text>
+<text x="184" y="161" font-size="10" fill="#8b949e" font-weight="400" text-anchor="end">5.3%</text>
 <text x="22" y="187" font-size="10" fill="#8b949e" font-weight="400" text-anchor="start">Public non-fork repositories · share of language bytes</text>
 </svg>

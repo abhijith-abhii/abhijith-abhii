@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="390" height="200" viewBox="0 0 390 200" role="img" aria-labelledby="card-title card-description">
 <title id="card-title">GitHub at a glance</title>
-<desc id="card-description">Public statistics for abhijith-abhii. Public repositories: 5; Stars received: 0; Followers: 0; Following: 0. Stars are summed across owned public repositories.</desc>
+<desc id="card-description">Public statistics for abhijith-abhii. Public repositories: 30; Stars received: 0; Followers: 0; Following: 0. Stars are summed across owned public repositories.</desc>
 <style>text{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif}</style>
 <rect x="0.5" y="0.5" width="389" height="199" rx="14" fill="#0d1117" stroke="#30363d"/>
 <path d="M21 53H369" stroke="#161b22" stroke-width="2"/>
 <text x="21" y="33" font-size="16" fill="#61dafb" font-weight="600" text-anchor="start">GitHub at a glance</text>
-<text x="22" y="84" font-size="24" fill="#c9d1d9" font-weight="600" text-anchor="start">5</text>
+<text x="22" y="84" font-size="24" fill="#c9d1d9" font-weight="600" text-anchor="start">30</text>
 <text x="22" y="103" font-size="11" fill="#8b949e" font-weight="400" text-anchor="start">Public repositories</text>
 <text x="206" y="84" font-size="24" fill="#c9d1d9" font-weight="600" text-anchor="start">0</text>
 <text x="206" y="103" font-size="11" fill="#8b949e" font-weight="400" text-anchor="start">Stars received</text>
