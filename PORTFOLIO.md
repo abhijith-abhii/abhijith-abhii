@@ -1,6 +1,6 @@
 # Portfolio guide
 
-[Live portfolio](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/) · [Resume PDF](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/assets/Abhijith-Viswanathan-Resume.pdf) · [LinkedIn](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/) · [Complete project directory](projects/)
+[Live portfolio](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/) · [Resume PDF](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/assets/Abhijith-Viswanathan-Resume.pdf) · [Complete project directory](projects/)
 
 Updated October 1, 2026. The resume selects four projects for entry-level software, backend and full-stack roles. Start with Health Passport for the broader workflow, NoteMesh for collaboration and concurrency, DocSearch Atlas for retrieval, or Shipyard for container delivery.
 

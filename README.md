@@ -16,7 +16,6 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect on LinkedIn" /></a>
   <a href="https://github.com/abhijith-abhii/abhijith-abhii/blob/main/PORTFOLIO.md"><img src="https://img.shields.io/badge/Portfolio-1F6FEB?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Read my portfolio guide" /></a>
   <a href="https://abhijith-abhii.github.io/global-health-passport/"><img src="https://img.shields.io/badge/Project_demo-238636?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Explore the Global Health Passport demo" /></a>
 </p>
@@ -87,5 +86,5 @@ The health platform is a synthetic prototype, without live patient deployment or
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Righteous&amp;size=24&amp;duration=3500&amp;pause=1200&amp;color=61DAFB&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=65&amp;lines=Thanks+for+stopping+by!;Explore+my+projects+%E2%86%91;Let's+connect+on+LinkedIn" alt="Thanks for stopping by! Explore my projects and connect on LinkedIn." />
+  <img src="https://readme-typing-svg.demolab.com?font=Righteous&amp;size=24&amp;duration=3500&amp;pause=1200&amp;color=61DAFB&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=65&amp;lines=Thanks+for+stopping+by!;Explore+my+projects+%E2%86%91" alt="Thanks for stopping by! Explore my projects." />
 </p>
