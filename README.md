@@ -21,10 +21,11 @@
   <a href="https://abhijith-abhii.github.io/global-health-passport/"><img src="https://img.shields.io/badge/Project_demo-238636?style=for-the-badge&amp;logo=githubpages&amp;logoColor=white" alt="Explore the Global Health Passport demo" /></a>
 </p>
 
+[Visit my portfolio](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/) · [Download my resume](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/assets/Abhijith-Viswanathan-Resume.pdf) · [Selected project guide](PORTFOLIO.md)
+
 My internship background includes Node.js authentication with Azure Active Directory at **Xurmo Technologies** and API development for a real estate client at **Voila Ingenious**.
 
-
-
+At **Cambridge Institute of Technology**, I headed cultural activities, coordinating student teams and hosting college festivals and cultural programs with **more than 3,000 student participants at each event**. This experience developed my communication, team-building and event-coordination skills.
 
 <!-- github-project-categories:start -->
 ## Projects by category
@@ -56,6 +57,8 @@ Choose a section below to explore that area on GitHub. Each directory groups rel
 </p>
 
 ## How I am learning
+
+Planned professional development: **AWS Certified Cloud Practitioner**.
 
 These are AI-assisted personal projects. I directed Health Passport's development and am using the smaller projects to strengthen my hands-on coding and debugging skills. Each repository includes working examples, tests, design tradeoffs and contribution notes. My next step is to trace, explain and extend the implementation independently.
 
