@@ -57,7 +57,7 @@ Choose a section below to explore that area on GitHub. Each directory groups rel
 
 ## How I am learning
 
-Planned professional development: **AWS Certified Cloud Practitioner**.
+Certification: **AWS Certified Cloud Practitioner**.
 
 These are AI-assisted personal projects. I directed Health Passport's development and am using the smaller projects to strengthen my hands-on coding and debugging skills. Each repository includes working examples, tests, design tradeoffs and contribution notes. My next step is to trace, explain and extend the implementation independently.
 
