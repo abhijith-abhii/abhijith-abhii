@@ -23,6 +23,29 @@
 
 My internship background includes Node.js authentication with Azure Active Directory at **Xurmo Technologies** and API development for a real estate client at **Voila Ingenious**.
 
+
+
+
+<!-- github-project-categories:start -->
+## Projects by category
+
+Choose a section below to explore that area on GitHub. Each directory groups related repositories with descriptions, setup links and recorded evidence.
+
+| Project area | What is inside | Open category |
+|---|---|---|
+| **[Data Analytics](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-analytics)** | SQL · Dashboards · A/B testing · Public-data research | [5 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-analytics) |
+| **[AI & ML Engineering](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/ai-ml-engineering)** | Retrieval · Local models · Evaluation · Guardrails | [5 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/ai-ml-engineering) |
+| **[Data Science & Machine Learning](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-science-ml)** | Regression · Classification · Clustering · Fine-tuning | [5 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-science-ml) |
+| **[Data Engineering](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-engineering)** | Data contracts · Validation · Ingestion | [1 project →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-engineering) |
+| **[Software Engineering](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/software-engineering)** | APIs · SQLite · Collaboration · Browser extensions | [7 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/software-engineering) |
+| **[Cloud & DevOps](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cloud-devops)** | Docker · Terraform · CI · Kubernetes · Reliability | [5 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cloud-devops) |
+| **[Cybersecurity & Secure Systems](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cybersecurity)** | Access restrictions · Container hardening · Network isolation | [3 security-related projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cybersecurity) |
+
+**28 public project repositories, grouped into six primary areas.** The Cybersecurity & Secure Systems section cross-lists three projects with security controls. The original 25-project collection is included alongside Global Health Passport, Durable Queue and Contract Pipeline.
+
+[Open the complete GitHub project directory](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects)
+<!-- github-project-categories:end -->
+
 ---
 
 <h2 align="center">⚒️ Languages &amp; tools in my projects</h2>
@@ -31,25 +54,6 @@ My internship background includes Node.js authentication with Azure Active Direc
   <img src="https://skillicons.dev/icons?i=java,spring,react,typescript,nodejs&amp;theme=dark" alt="Java, Spring Boot, React, TypeScript, and Node.js" /><br/>
   <img src="https://skillicons.dev/icons?i=python,sqlite,postgres,git,github&amp;theme=dark" alt="Python, SQLite, PostgreSQL, Git, and GitHub" />
 </p>
-
-## Featured work
-
-| Project | Engineering focus | Start here |
-|---|---|---|
-| **[Global Health Passport](https://github.com/abhijith-abhii/global-health-passport)** | Java/Spring Boot, React/TypeScript and Expo; consent, provenance, care teams and hospital workflows using synthetic data | [Architecture, screenshots and setup](https://github.com/abhijith-abhii/global-health-passport#readme) |
-| [Durable Queue](https://github.com/abhijith-abhii/durable-queue) | Persistent SQLite jobs, leases, retries and stale-worker fencing | [Demo and design](https://github.com/abhijith-abhii/durable-queue#readme) |
-| [Contract Pipeline](https://github.com/abhijith-abhii/contract-pipeline) | Contract-driven CSV validation, quarantine, atomic ingestion and replay protection | [Demo and design](https://github.com/abhijith-abhii/contract-pipeline#readme) |
-| [DocSearch Atlas](https://github.com/abhijith-abhii/docsearch) | Incremental FTS5 indexing, source-linked runbook retrieval and optional local model inference | [Demo, evidence and setup](https://github.com/abhijith-abhii/docsearch#readme) |
-
-<!-- verified-engineering-collection:start -->
-## Engineering collection
-
-[Explore my 25-project portfolio](https://abhijith-abhii.github.io/portfolio-index/) across software engineering, data science, AI, cloud and analytics. Each repository includes reproducible setup, recorded checks and a learning guide. These are AI-assisted portfolio projects, with synthetic data and execution limits identified explicitly.
-
-A few starting points: **[NoteMesh](https://github.com/abhijith-abhii/notemesh)** for saved-note synchronization and conflict handling; **[Retention Studio](https://github.com/abhijith-abhii/retention-studio)** for a calibrated churn review workflow; **[Shipyard](https://github.com/abhijith-abhii/shipyard)** for verified container delivery. Application demos run locally; the public catalog contains screenshots and recorded evidence.
-
-[Full categorized index](https://github.com/abhijith-abhii/portfolio-index) · [Design decisions and project learning guides](https://github.com/abhijith-abhii/portfolio-index/blob/main/PRESENTATION_GUIDE.md)
-<!-- verified-engineering-collection:end -->
 
 ## How I am learning
 

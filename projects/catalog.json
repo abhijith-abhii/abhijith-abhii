@@ -1,0 +1,682 @@
+{
+  "sections": [
+    {
+      "slug": "data-analytics",
+      "label": "Data Analytics",
+      "short": "Analytics",
+      "summary": "SQL, business dashboards, marketing attribution and experiments that turn data into explained decisions.",
+      "skills": "SQL \u00b7 Dashboards \u00b7 A/B testing \u00b7 Public-data research",
+      "start": "retail-supply-chain-control-tower"
+    },
+    {
+      "slug": "ai-ml-engineering",
+      "label": "AI & ML Engineering",
+      "short": "AI Engineering",
+      "summary": "Document retrieval, constrained workflows, model evaluation and multimodal search with inspectable results.",
+      "skills": "Retrieval \u00b7 Local models \u00b7 Evaluation \u00b7 Guardrails",
+      "start": "docsearch"
+    },
+    {
+      "slug": "data-science-ml",
+      "label": "Data Science & Machine Learning",
+      "short": "Data Science",
+      "summary": "Prediction, clustering and fine-tuning, with baselines, held-out evaluation and uncertainty made explicit.",
+      "skills": "Regression \u00b7 Classification \u00b7 Clustering \u00b7 Fine-tuning",
+      "start": "retention-studio"
+    },
+    {
+      "slug": "data-engineering",
+      "label": "Data Engineering",
+      "short": "Data Engineering",
+      "summary": "Contract-driven data ingestion, validation, quarantine and replay protection.",
+      "skills": "Data contracts \u00b7 Validation \u00b7 Ingestion",
+      "start": "contract-pipeline"
+    },
+    {
+      "slug": "software-engineering",
+      "label": "Software Engineering",
+      "short": "Software",
+      "summary": "Useful applications and developer tools, from shared notes and browser extensions to an open-source regression patch.",
+      "skills": "APIs \u00b7 SQLite \u00b7 Collaboration \u00b7 Browser extensions",
+      "start": "linkscope"
+    },
+    {
+      "slug": "cloud-devops",
+      "label": "Cloud & DevOps",
+      "short": "Cloud & DevOps",
+      "summary": "Container delivery, infrastructure configuration, cost analysis, recovery and measured Kubernetes autoscaling.",
+      "skills": "Docker \u00b7 Terraform \u00b7 CI \u00b7 Kubernetes \u00b7 Reliability",
+      "start": "shipyard"
+    },
+    {
+      "slug": "cybersecurity",
+      "label": "Cybersecurity & Secure Systems",
+      "short": "Cybersecurity",
+      "summary": "A focused view of security controls in existing projects: SQL access restrictions, container hardening and private network design.",
+      "skills": "Access restrictions \u00b7 Container hardening \u00b7 Network isolation",
+      "start": "queryguard",
+      "members": [
+        "queryguard",
+        "shipyard",
+        "aws-network-infrastructure-troubleshooting-lab"
+      ],
+      "note": "These three projects are also listed under AI & ML Engineering or Cloud & DevOps. This section highlights their implemented security controls; it does not count them as additional projects or claim a standalone penetration-testing portfolio."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "LinkScope",
+      "slug": "linkscope",
+      "category": "software-engineering",
+      "category_label": "Software Engineering",
+      "problem": "URL shortener with campaign analytics",
+      "features": [
+        "Custom aliases, expiry and link disabling",
+        "Daily and referrer click aggregates",
+        "Campaign labels and CSV export"
+      ],
+      "stack": "Flask \u00b7 SQLite",
+      "data": "Synthetic links; local click events",
+      "repository": "https://github.com/abhijith-abhii/linkscope",
+      "local_demo": "https://github.com/abhijith-abhii/linkscope/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/linkscope/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "Counts describe visits, not unique people. The local application has no authenticated management or public anti-abuse service."
+      ],
+      "test_count": 15
+    },
+    {
+      "id": 2,
+      "name": "NoteMesh",
+      "slug": "notemesh",
+      "category": "software-engineering",
+      "category_label": "Software Engineering",
+      "problem": "Shared meeting notes without lost edits",
+      "features": [
+        "Saved-note synchronization over SSE",
+        "Revision checks and preserved conflict drafts",
+        "Persistent history and Markdown export"
+      ],
+      "stack": "Flask \u00b7 SQLite \u00b7 SSE",
+      "data": "Local shared notes",
+      "repository": "https://github.com/abhijith-abhii/notemesh",
+      "local_demo": "https://github.com/abhijith-abhii/notemesh/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/notemesh/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "Synchronization happens when a whole note is saved. There is no character-by-character collaborative merge. Room names are not authentication."
+      ],
+      "test_count": 13
+    },
+    {
+      "id": 3,
+      "name": "Repo Radar",
+      "slug": "repo-radar",
+      "category": "software-engineering",
+      "category_label": "Software Engineering",
+      "problem": "Understand public repository activity",
+      "features": [
+        "Live GitHub snapshots with bounded pagination",
+        "Five-minute cache and dated activity charts",
+        "Explicit synthetic sample mode"
+      ],
+      "stack": "Python \u00b7 Flask",
+      "data": "GitHub REST API; labeled fixture",
+      "repository": "https://github.com/abhijith-abhii/repo-radar",
+      "local_demo": "https://github.com/abhijith-abhii/repo-radar/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/repo-radar/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "API rate limits and network availability affect live mode. A commit count is not a measure of developer performance or complete repository history."
+      ],
+      "test_count": 10
+    },
+    {
+      "id": 4,
+      "name": "TabHarbor",
+      "slug": "tabharbor",
+      "category": "software-engineering",
+      "category_label": "Software Engineering",
+      "problem": "Organize crowded browser sessions",
+      "features": [
+        "Domain-based tab groups and duplicate preview",
+        "Saved workspaces and restore in a new window",
+        "Alarm-based focus timer"
+      ],
+      "stack": "Chrome MV3 \u00b7 JavaScript",
+      "data": "Local browser tabs only",
+      "repository": "https://github.com/abhijith-abhii/tabharbor",
+      "local_demo": "https://github.com/abhijith-abhii/tabharbor/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/tabharbor/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "Verified with bundled Chromium on Linux CI; Chrome Web Store publication is not included.",
+        "The extension has not been published in the Chrome Web Store. Workspaces save URLs, not login sessions or browsing history. Saved URLs are not encrypted."
+      ],
+      "test_count": 15
+    },
+    {
+      "id": 5,
+      "name": "Upstream Lab",
+      "slug": "upstream-lab",
+      "category": "software-engineering",
+      "category_label": "Software Engineering",
+      "problem": "Reproduce and improve an open-source behavior",
+      "features": [
+        "Pinned python-slugify failure reproducer",
+        "CLI regex validation patch",
+        "Before-and-after regression evidence"
+      ],
+      "stack": "Python \u00b7 pytest",
+      "data": "Attributed upstream source",
+      "repository": "https://github.com/abhijith-abhii/upstream-lab",
+      "local_demo": "https://github.com/abhijith-abhii/upstream-lab/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/upstream-lab/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "No upstream pull request has been submitted or accepted. The reproducer deliberately stops if its existing var/upstream checkout is already modified."
+      ],
+      "test_count": 10
+    },
+    {
+      "id": 6,
+      "name": "PayLens",
+      "slug": "paylens",
+      "category": "data-science-ml",
+      "category_label": "Data Science / ML",
+      "problem": "Explore salary estimates and uncertainty",
+      "features": [
+        "Synthetic salary regression with a median baseline",
+        "Separate training, calibration and test splits",
+        "Prediction intervals and held-out evaluation"
+      ],
+      "stack": "scikit-learn \u00b7 Flask",
+      "data": "Transparent synthetic compensation sample",
+      "repository": "https://github.com/abhijith-abhii/paylens",
+      "local_demo": "https://github.com/abhijith-abhii/paylens/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/paylens/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "These results describe authored synthetic data. They are not reliable market salary estimates or a guarantee about any individual\u2019s compensation."
+      ],
+      "test_count": 10
+    },
+    {
+      "id": 7,
+      "name": "Retention Studio",
+      "slug": "retention-studio",
+      "category": "data-science-ml",
+      "category_label": "Data Science / ML",
+      "problem": "Prioritize reviewable churn retention work",
+      "features": [
+        "Calibrated churn scores and eligibility rules",
+        "Capacity-limited review queue with cooldowns",
+        "Stored decisions and audit history"
+      ],
+      "stack": "pandas \u00b7 scikit-learn \u00b7 Flask",
+      "data": "IBM fictional telecom sample",
+      "repository": "https://github.com/abhijith-abhii/retention-studio",
+      "local_demo": "https://github.com/abhijith-abhii/retention-studio/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/retention-studio/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "The data is fictional and the labels are historical. A high churn score does not prove that outreach will prevent churn. Numerical runtime warnings occurred in the recorded macOS test environment."
+      ],
+      "test_count": 27
+    },
+    {
+      "id": 8,
+      "name": "CourtCraft",
+      "slug": "courtcraft",
+      "category": "data-science-ml",
+      "category_label": "Data Science / ML",
+      "problem": "Compare basketball performance fairly",
+      "features": [
+        "Per-36-minute rates and scoring efficiency",
+        "Gamma-Poisson shrinkage and uncertainty intervals",
+        "Minimum-minutes filter and comparisons"
+      ],
+      "stack": "pandas \u00b7 scipy \u00b7 Flask",
+      "data": "Authored synthetic box scores",
+      "repository": "https://github.com/abhijith-abhii/courtcraft",
+      "local_demo": "https://github.com/abhijith-abhii/courtcraft/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/courtcraft/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "The dataset does not describe a real league. Rates and model intervals do not account for every factor, such as opponent strength, pace or team role."
+      ],
+      "test_count": 8
+    },
+    {
+      "id": 9,
+      "name": "Ticket Tuner",
+      "slug": "ticket-tuner",
+      "category": "data-science-ml",
+      "category_label": "Data Science / ML",
+      "problem": "Adapt a small model for support routing",
+      "features": [
+        "Actual FLAN-T5-small support-ticket fine-tuning",
+        "Template-family splits and checkpoint selection",
+        "TF-IDF baseline and local inference"
+      ],
+      "stack": "PyTorch \u00b7 Transformers",
+      "data": "Authored synthetic support corpus",
+      "repository": "https://github.com/abhijith-abhii/ticket-tuner",
+      "local_demo": "https://github.com/abhijith-abhii/ticket-tuner/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/ticket-tuner/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "Large trained weights are excluded from Git. A fresh clone needs the pinned base-model download and training. A perfect score on limited synthetic examples does not establish real-world support accuracy."
+      ],
+      "test_count": 7
+    },
+    {
+      "id": 10,
+      "name": "SpendMap",
+      "slug": "spendmap",
+      "category": "data-science-ml",
+      "category_label": "Data Science / ML",
+      "problem": "Understand spending with editable categories",
+      "features": [
+        "Editable merchant rules and exact spending totals",
+        "Monthly summaries and normalized customer features",
+        "KMeans clustering with silhouette diagnostics"
+      ],
+      "stack": "pandas \u00b7 scikit-learn \u00b7 Flask",
+      "data": "Synthetic transactions",
+      "repository": "https://github.com/abhijith-abhii/spendmap",
+      "local_demo": "https://github.com/abhijith-abhii/spendmap/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/spendmap/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "The transactions are synthetic. Clusters are descriptive and depend on the rules and selected features; they are not financial advice."
+      ],
+      "test_count": 10
+    },
+    {
+      "id": 11,
+      "name": "DocSearch Atlas",
+      "slug": "docsearch",
+      "category": "ai-ml-engineering",
+      "category_label": "AI / ML Engineering",
+      "problem": "Answer engineering runbook questions with evidence",
+      "features": [
+        "Incremental SQLite FTS5 runbook retrieval",
+        "Source-linked extractive answers",
+        "Optional local FLAN inference and no-evidence responses"
+      ],
+      "stack": "SQLite FTS5 \u00b7 Flask",
+      "data": "Authored runbooks; existing DocSearch code",
+      "repository": "https://github.com/abhijith-abhii/docsearch",
+      "local_demo": "https://github.com/abhijith-abhii/docsearch/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/docsearch/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "Retrieval is lexical, so paraphrases without shared words may be missed. Generated answers can be wrong even when citations are displayed."
+      ],
+      "test_count": 19
+    },
+    {
+      "id": 12,
+      "name": "QueryGuard",
+      "slug": "queryguard",
+      "category": "ai-ml-engineering",
+      "category_label": "AI / ML Engineering",
+      "problem": "Ask bounded sales questions safely",
+      "features": [
+        "Five supported sales-question intents",
+        "Parameterized SQL with read-only access",
+        "SQLite authorizer and query budgets"
+      ],
+      "stack": "SQLite \u00b7 Flask",
+      "data": "Synthetic sales database",
+      "repository": "https://github.com/abhijith-abhii/queryguard",
+      "local_demo": "https://github.com/abhijith-abhii/queryguard/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/queryguard/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "This is a bounded rules-based interface over synthetic data. It does not use a language model to generate arbitrary SQL."
+      ],
+      "test_count": 15
+    },
+    {
+      "id": 13,
+      "name": "Release Pilot",
+      "slug": "release-pilot",
+      "category": "ai-ml-engineering",
+      "category_label": "AI / ML Engineering",
+      "problem": "Assemble a release review from local changes",
+      "features": [
+        "Allowlisted local inspection and test workflow",
+        "Passing-test gate, content cache and audit records",
+        "Optional local-model summaries with guarded fallback"
+      ],
+      "stack": "Python \u00b7 Flask",
+      "data": "Local sample release workspace",
+      "repository": "https://github.com/abhijith-abhii/release-pilot",
+      "local_demo": "https://github.com/abhijith-abhii/release-pilot/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/release-pilot/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "The tool cannot send, tag, push or deploy a release. The summary guard is conservative but does not guarantee semantic truth; the result is for human review."
+      ],
+      "test_count": 10
+    },
+    {
+      "id": 14,
+      "name": "EvalBench",
+      "slug": "evalbench",
+      "category": "ai-ml-engineering",
+      "category_label": "AI / ML Engineering",
+      "problem": "Compare model answers using repeatable evidence",
+      "features": [
+        "Actual direct and context-assisted FLAN runs",
+        "Exact-match and token-overlap scoring",
+        "Paired bootstrap intervals and case-by-case inspection"
+      ],
+      "stack": "Python \u00b7 Flask",
+      "data": "Authored QA cases; explicit recorded responses",
+      "repository": "https://github.com/abhijith-abhii/evalbench",
+      "local_demo": "https://github.com/abhijith-abhii/evalbench/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/evalbench/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "The small authored set cannot establish general superiority. Token overlap measures agreement with reference text, not guaranteed factual correctness."
+      ],
+      "test_count": 7
+    },
+    {
+      "id": 15,
+      "name": "ShelfMatch",
+      "slug": "shelfmatch",
+      "category": "ai-ml-engineering",
+      "category_label": "AI / ML Engineering",
+      "problem": "Find material swatches using text and image features",
+      "features": [
+        "Sixteen original material swatches",
+        "Text similarity and color/texture image features",
+        "Adjustable modality weights and ranked gallery"
+      ],
+      "stack": "Pillow \u00b7 scikit-learn \u00b7 Flask",
+      "data": "Authored product cards and images",
+      "repository": "https://github.com/abhijith-abhii/shelfmatch",
+      "local_demo": "https://github.com/abhijith-abhii/shelfmatch/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/shelfmatch/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "This is an interpretable feature baseline, not a pretrained vision-language model. Images are procedural swatches; queries use catalog references rather than arbitrary uploads."
+      ],
+      "test_count": 12
+    },
+    {
+      "id": 16,
+      "name": "Shipyard",
+      "slug": "shipyard",
+      "category": "cloud-devops",
+      "category_label": "Cloud / DevOps",
+      "problem": "Ship a health-checked service through CI",
+      "features": [
+        "Container build and delivery through GitHub Actions",
+        "Non-root runtime and read-only filesystem",
+        "Health and functional smoke checks"
+      ],
+      "stack": "Docker \u00b7 GitHub Actions \u00b7 Flask",
+      "data": "Local service; temporary CI containers",
+      "repository": "https://github.com/abhijith-abhii/shipyard",
+      "local_demo": "https://github.com/abhijith-abhii/shipyard/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/shipyard/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "Actual temporary CI container verified; no continuously hosted public service or production rollout.",
+        "The deployment target is a temporary CI container or local Compose service. Continuous public hosting, registry delivery and zero-downtime production rollout are outside this scope."
+      ],
+      "test_count": 9
+    },
+    {
+      "id": 17,
+      "name": "Network Foundry",
+      "slug": "aws-network-infrastructure-troubleshooting-lab",
+      "category": "cloud-devops",
+      "category_label": "Cloud / DevOps",
+      "problem": "Reproduce a segmented AWS network safely",
+      "features": [
+        "Terraform private network and endpoint configuration",
+        "Fault scenarios and Python diagnostics",
+        "Credential-free validation and mock-provider tests"
+      ],
+      "stack": "Terraform \u00b7 Python",
+      "data": "AWS configuration; no paid apply",
+      "repository": "https://github.com/abhijith-abhii/aws-network-infrastructure-troubleshooting-lab",
+      "local_demo": "https://github.com/abhijith-abhii/aws-network-infrastructure-troubleshooting-lab/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/aws-network-infrastructure-troubleshooting-lab/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "No AWS resources deployed; only configuration, Python and mock-provider checks executed.",
+        "No AWS resources were deployed. These checks cannot prove live packet delivery or account-specific IAM behavior. Terraform apply would require a separate cost and account review."
+      ],
+      "test_count": 16
+    },
+    {
+      "id": 18,
+      "name": "CostCompass",
+      "slug": "costcompass",
+      "category": "cloud-devops",
+      "category_label": "Cloud / DevOps",
+      "problem": "Explain AWS cost drivers and review opportunities",
+      "features": [
+        "Synthetic AWS-style billing reconciliation",
+        "Service/tag summaries and anomaly flags",
+        "Hypothetical compute-savings scenarios"
+      ],
+      "stack": "pandas \u00b7 Flask",
+      "data": "Synthetic AWS billing rows",
+      "repository": "https://github.com/abhijith-abhii/costcompass",
+      "local_demo": "https://github.com/abhijith-abhii/costcompass/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/costcompass/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "No real AWS account is connected. The data is synthetic and the app makes no infrastructure changes or automatic spending decisions."
+      ],
+      "test_count": 8
+    },
+    {
+      "id": 19,
+      "name": "Failover Forge",
+      "slug": "failover-forge",
+      "category": "cloud-devops",
+      "category_label": "Cloud / DevOps",
+      "problem": "Measure local recovery under service failure",
+      "features": [
+        "Two real local HTTP service processes",
+        "Primary failure, client fallback and restart",
+        "Measured recovery sequence and process cleanup"
+      ],
+      "stack": "Python \u00b7 HTTP subprocesses",
+      "data": "Local synthetic service traffic",
+      "repository": "https://github.com/abhijith-abhii/failover-forge",
+      "local_demo": "https://github.com/abhijith-abhii/failover-forge/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/failover-forge/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "This is a same-host, stateless process experiment. It is not a multi-region system, load balancer or data-replication test; no recovery-point objective was measured."
+      ],
+      "test_count": 5
+    },
+    {
+      "id": 20,
+      "name": "Scale Lab",
+      "slug": "scale-lab",
+      "category": "cloud-devops",
+      "category_label": "Cloud / DevOps",
+      "problem": "Understand autoscaling under measured load",
+      "features": [
+        "Replica calculator and containerized worker",
+        "Kubernetes probes, resource requests and HPA",
+        "Real disposable kind-cluster load experiment"
+      ],
+      "stack": "Kubernetes \u00b7 kind \u00b7 Python",
+      "data": "Ephemeral local/CI cluster",
+      "repository": "https://github.com/abhijith-abhii/scale-lab",
+      "local_demo": "https://github.com/abhijith-abhii/scale-lab/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/scale-lab/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "Actual kind cluster scaled from two to six available replicas; multi-node production operation and scale-down benchmarks are outside scope.",
+        "The calculator simplifies controller behavior. The real test uses a disposable single-node cluster; scale-down timing, node autoscaling and production capacity were not benchmarked."
+      ],
+      "test_count": 12
+    },
+    {
+      "id": 21,
+      "name": "Margin Ledger",
+      "slug": "margin-ledger",
+      "category": "data-analytics",
+      "category_label": "Data Analytics",
+      "problem": "Find product and return patterns with SQL",
+      "features": [
+        "Eight SQL reports at order-line grain",
+        "Return reversals and exact money calculations",
+        "Consistent totals and a business-results report"
+      ],
+      "stack": "SQLite \u00b7 Python \u00b7 Flask",
+      "data": "Synthetic retail orders",
+      "repository": "https://github.com/abhijith-abhii/margin-ledger",
+      "local_demo": "https://github.com/abhijith-abhii/margin-ledger/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/margin-ledger/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "The business data is synthetic. Shipping, tax and processing fees are excluded. Descriptive patterns do not establish why real customers behave a certain way."
+      ],
+      "test_count": 8
+    },
+    {
+      "id": 22,
+      "name": "JourneyMark",
+      "slug": "journeymark",
+      "category": "data-analytics",
+      "category_label": "Data Analytics",
+      "problem": "Compare marketing attribution assumptions",
+      "features": [
+        "First-touch, last-touch, linear and time-decay models",
+        "Lookback windows and repeated-conversion boundaries",
+        "Unattributed credit and conservation checks"
+      ],
+      "stack": "pandas \u00b7 Flask",
+      "data": "Synthetic touchpoint journeys",
+      "repository": "https://github.com/abhijith-abhii/journeymark",
+      "local_demo": "https://github.com/abhijith-abhii/journeymark/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/journeymark/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "Attribution describes a chosen credit rule. It does not prove a channel caused a purchase or measure incremental advertising return."
+      ],
+      "test_count": 10
+    },
+    {
+      "id": 23,
+      "name": "Retail Control Tower",
+      "slug": "retail-supply-chain-control-tower",
+      "category": "data-analytics",
+      "category_label": "Data Analytics",
+      "problem": "Explore retail revenue, profit and delivery performance",
+      "features": [
+        "Interactive revenue, profit and delivery dashboard",
+        "Market, segment and month filters",
+        "Distinct-order delivery metrics and safe-field selection"
+      ],
+      "stack": "Python \u00b7 SQLite \u00b7 browser",
+      "data": "Existing synthetic fixture; provenance preserved",
+      "repository": "https://github.com/abhijith-abhii/retail-supply-chain-control-tower",
+      "local_demo": "https://github.com/abhijith-abhii/retail-supply-chain-control-tower/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/retail-supply-chain-control-tower/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "The finished scope is the synthetic-data browser dashboard. The preserved optional forecasting pipeline, native Power BI work and real-source Kaggle analysis were not revalidated as completed deliverables."
+      ],
+      "test_count": 8
+    },
+    {
+      "id": 24,
+      "name": "Experiment Lens",
+      "slug": "experiment-lens",
+      "category": "data-analytics",
+      "category_label": "Data Analytics",
+      "problem": "Audit and interpret an A/B experiment",
+      "features": [
+        "Unique-user validation and sample-ratio checks",
+        "Conversion intervals, lift and significance testing",
+        "Separate sample-size planning calculation"
+      ],
+      "stack": "scipy \u00b7 Flask",
+      "data": "Seeded randomized synthetic experiment",
+      "repository": "https://github.com/abhijith-abhii/experiment-lens",
+      "local_demo": "https://github.com/abhijith-abhii/experiment-lens/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/experiment-lens/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "This is a fixed-horizon normal-approximation analysis. Sparse outcomes, repeated peeking, multiple comparisons and causal validity beyond the experiment design need additional work."
+      ],
+      "test_count": 9
+    },
+    {
+      "id": 25,
+      "name": "Energy Brief",
+      "slug": "energy-brief",
+      "category": "data-analytics",
+      "category_label": "Data Analytics",
+      "problem": "Research electricity generation trends reproducibly",
+      "features": [
+        "Pinned public OWID electricity dataset",
+        "Country/year comparisons with missing-value handling",
+        "Source checksums and a reproducible research report"
+      ],
+      "stack": "Python \u00b7 pandas \u00b7 Flask",
+      "data": "Our World in Data energy data / cited upstream",
+      "repository": "https://github.com/abhijith-abhii/energy-brief",
+      "local_demo": "https://github.com/abhijith-abhii/energy-brief/blob/main/LEARNING_GUIDE.md",
+      "verification": "https://github.com/abhijith-abhii/energy-brief/blob/main/VERIFICATION.md",
+      "verification_limits": [
+        "The six countries are an illustrative selection. These historical comparisons do not isolate policy effects or provide forecasts."
+      ],
+      "test_count": 10
+    },
+    {
+      "slug": "global-health-passport",
+      "name": "Global Health Passport",
+      "category": "software-engineering",
+      "category_label": "Software Engineering",
+      "problem": "Synthetic health workflows across Java, React and Expo",
+      "features": [
+        "Consent, provenance and care-team workflows",
+        "Shared backend for web and mobile clients",
+        "Synthetic records and documented architecture"
+      ],
+      "stack": "Java \u00b7 Spring Boot \u00b7 React \u00b7 Expo",
+      "data": "Synthetic health data",
+      "repository": "https://github.com/abhijith-abhii/global-health-passport",
+      "local_demo": "https://github.com/abhijith-abhii/global-health-passport#readme",
+      "verification_limits": [
+        "Synthetic prototype; no live patient deployment or compliance certification."
+      ],
+      "additional": true
+    },
+    {
+      "slug": "durable-queue",
+      "name": "Durable Queue",
+      "category": "software-engineering",
+      "category_label": "Software Engineering",
+      "problem": "Persistent SQLite jobs with leases, retries and recovery",
+      "features": [
+        "Transactional claims and expiring leases",
+        "Retries, dead letters and idempotent enqueue",
+        "Stale-worker fencing"
+      ],
+      "stack": "Python \u00b7 SQLite",
+      "data": "Local demonstration jobs",
+      "repository": "https://github.com/abhijith-abhii/durable-queue",
+      "local_demo": "https://github.com/abhijith-abhii/durable-queue#readme",
+      "verification_limits": [
+        "Single-host queue with at-least-once delivery; external side effects still require idempotency."
+      ],
+      "additional": true
+    },
+    {
+      "slug": "contract-pipeline",
+      "name": "Contract Pipeline",
+      "category": "data-engineering",
+      "category_label": "Data Engineering",
+      "problem": "Contract-driven CSV ingestion with validation and replay protection",
+      "features": [
+        "Schema validation and quarantine",
+        "Atomic batches and incompatible-contract rejection",
+        "Replay protection"
+      ],
+      "stack": "Python \u00b7 SQLite",
+      "data": "Demonstration CSV records",
+      "repository": "https://github.com/abhijith-abhii/contract-pipeline",
+      "local_demo": "https://github.com/abhijith-abhii/contract-pipeline#readme",
+      "verification_limits": [
+        "Local ingestion demonstration; no managed cloud data platform."
+      ],
+      "additional": true
+    }
+  ]
+}
