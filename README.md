@@ -59,7 +59,7 @@ Choose a section below to explore that area on GitHub. Each directory groups rel
 
 Certification: **AWS Certified Solutions Architect – Professional**.
 
-These are AI-assisted personal projects. I directed Health Passport's development and am using the smaller projects to strengthen my hands-on coding and debugging skills. Each repository includes working examples, tests, design tradeoffs and contribution notes. My next step is to trace, explain and extend the implementation independently.
+I build personal projects across full-stack development, search, cloud systems and optimization. My repositories include working examples, tests, design decisions and reproducible benchmarks. See each project’s development notes for tools and implementation details.
 
 The health platform is a synthetic prototype, without live patient deployment or compliance certification. The portfolio does not claim production adoption or independently implemented expertise that has not been demonstrated.
 
