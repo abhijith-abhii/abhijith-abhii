@@ -88,3 +88,7 @@ The health platform is a synthetic prototype, without live patient deployment or
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Righteous&amp;size=24&amp;duration=3500&amp;pause=1200&amp;color=61DAFB&amp;center=true&amp;vCenter=true&amp;width=600&amp;height=65&amp;lines=Thanks+for+stopping+by!;Explore+my+projects+%E2%86%91" alt="Thanks for stopping by! Explore my projects." />
 </p>
+
+## Connect
+
+[LinkedIn — Abhijith Viswanathan](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/)
