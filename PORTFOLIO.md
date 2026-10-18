@@ -4,7 +4,7 @@
 
 Updated October 18, 2026. The resume selects five projects for entry-level software, backend and full-stack roles. Start with Health Passport for the broader workflow, NoteMesh for collaboration and concurrency, DocSearch Atlas for retrieval, RescueRoute for constrained route optimization, or PropertyPulse for indexed database search. Shipyard remains documented as an additional delivery lab.
 
-These are AI-assisted personal projects. I directed Health Passport's development and am strengthening my ability to trace, explain and extend the implementations myself. Recorded checks demonstrate code behavior; they do not establish independent proficiency or production adoption. The October 18 update adds reproducible synthetic local benchmarks. NoteMesh, DocSearch and Shipyard tests were rerun; Health Passport's application-suite totals remain historical evidence.
+These are my personal projects, covering full-stack applications, search, cloud systems and optimization. Development notes document AI-assisted tooling; recorded checks and benchmarks describe reproducible local behavior. The October 18 update adds reproducible synthetic local benchmarks. NoteMesh, DocSearch and Shipyard tests were rerun; Health Passport's application-suite totals remain historical evidence.
 
 ## Global Health Passport
 
@@ -18,13 +18,13 @@ Recorded verification passed 94 backend and 18 mobile tests plus web build check
 
 [Repository and setup](https://github.com/abhijith-abhii/rescue-route) · [Case study](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/projects/rescue-route/) · [Benchmark evidence](https://github.com/abhijith-abhii/rescue-route/blob/main/benchmarks/README.md)
 
-A new AI-assisted personal project for community food-delivery planning. Capacity, unloading windows and depot-return constraints are checked during route optimization. A visual dashboard compares plans; SQLite persists idempotent requests. 36 tests passed. Across 20 synthetic delivery days, modelled distance fell 18.71% with the same 480 deliveries. A separate eight-stop experiment reduced median runtime 99.69% versus exhaustive search, matching the optimum on all ten fixtures; no general optimality guarantee is claimed.
+My personal project for community food-delivery planning. Capacity, unloading windows and depot-return constraints are checked during route optimization. A visual dashboard compares plans; SQLite persists idempotent requests. 36 tests passed. Across 20 synthetic delivery days, modelled distance fell 18.71% with the same 480 deliveries. A separate eight-stop experiment reduced median runtime 99.69% versus exhaustive search, matching the optimum on all ten fixtures; no general optimality guarantee is claimed.
 
 ## PropertyPulse
 
 [Repository and setup](https://github.com/abhijith-abhii/propertypulse-api) · [Case study](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/projects/propertypulse-api/) · [Benchmark evidence](https://github.com/abhijith-abhii/propertypulse-api/blob/main/benchmarks/README.md)
 
-A new AI-assisted rental-search API with city/bedroom/budget filters, cursor pagination and version-checked updates. 23 tests passed. A composite partial index reduced median database search time 97.37% over 100,000 synthetic listings. The separate HTTP comparison did not improve; the claim is limited to the measured database operation.
+My rental-search API project with city/bedroom/budget filters, cursor pagination and version-checked updates. 23 tests passed. A composite partial index reduced median database search time 97.37% over 100,000 synthetic listings. The separate HTTP comparison did not improve; the claim is limited to the measured database operation.
 
 ## NoteMesh
 
