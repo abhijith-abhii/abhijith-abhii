@@ -37,11 +37,11 @@ Choose a section below to explore that area on GitHub. Each directory groups rel
 | **[AI & ML Engineering](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/ai-ml-engineering)** | Retrieval · Local models · Evaluation · Guardrails | [5 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/ai-ml-engineering) |
 | **[Data Science & Machine Learning](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-science-ml)** | Regression · Classification · Clustering · Fine-tuning | [5 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-science-ml) |
 | **[Data Engineering](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-engineering)** | Data contracts · Validation · Ingestion | [1 project →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/data-engineering) |
-| **[Software Engineering](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/software-engineering)** | APIs · SQLite · Collaboration · Browser extensions | [7 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/software-engineering) |
+| **[Software Engineering](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/software-engineering)** | APIs · SQLite · Collaboration · Browser extensions | [9 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/software-engineering) |
 | **[Cloud & DevOps](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cloud-devops)** | Docker · Terraform · CI · Kubernetes · Reliability | [5 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cloud-devops) |
 | **[Cybersecurity & Secure Systems](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cybersecurity)** | Access restrictions · Container hardening · Network isolation | [3 security-related projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cybersecurity) |
 
-**28 public project repositories, grouped into six primary areas.** The Cybersecurity & Secure Systems section cross-lists three projects with security controls. The original 25-project collection is included alongside Global Health Passport, Durable Queue and Contract Pipeline.
+**30 public project repositories, grouped into six primary areas.** The Cybersecurity & Secure Systems section cross-lists three projects with security controls. The original 25-project collection is included alongside Global Health Passport, Durable Queue, Contract Pipeline, PropertyPulse and RescueRoute.
 
 [Open the complete GitHub project directory](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects)
 <!-- github-project-categories:end -->
@@ -57,7 +57,7 @@ Choose a section below to explore that area on GitHub. Each directory groups rel
 
 ## How I am learning
 
-Certification: **AWS Certified Cloud Practitioner**.
+Certification: **AWS Certified Solutions Architect – Professional**.
 
 These are AI-assisted personal projects. I directed Health Passport's development and am using the smaller projects to strengthen my hands-on coding and debugging skills. Each repository includes working examples, tests, design tradeoffs and contribution notes. My next step is to trace, explain and extend the implementation independently.
 

@@ -2,7 +2,7 @@
 
 Useful applications and developer tools, from shared notes and browser extensions to an open-source regression patch.
 
-**7 projects** · APIs · SQLite · Collaboration · Browser extensions
+**9 projects** · APIs · SQLite · Collaboration · Browser extensions
 
 [All project categories](../README.md) · [My GitHub profile](https://github.com/abhijith-abhii)
 
@@ -10,6 +10,8 @@ Useful applications and developer tools, from shared notes and browser extension
 
 | Project | What it does | Open |
 |---|---|---|
+| **[RescueRoute](https://github.com/abhijith-abhii/rescue-route)** | Food-delivery planning with constraints, route optimization and exact/heuristic comparisons | [Code and evidence](https://github.com/abhijith-abhii/rescue-route#readme) |
+| **[PropertyPulse](https://github.com/abhijith-abhii/propertypulse-api)** | Rental search with cursor pagination and measured index improvement | [Code and evidence](https://github.com/abhijith-abhii/propertypulse-api#readme) |
 | **[LinkScope](https://github.com/abhijith-abhii/linkscope)** | URL shortener with campaign analytics | [Code and setup](https://github.com/abhijith-abhii/linkscope#readme) |
 | **[NoteMesh](https://github.com/abhijith-abhii/notemesh)** | Shared meeting notes without lost edits | [Code and setup](https://github.com/abhijith-abhii/notemesh#readme) |
 | **[Repo Radar](https://github.com/abhijith-abhii/repo-radar)** | Understand public repository activity | [Code and setup](https://github.com/abhijith-abhii/repo-radar#readme) |
@@ -143,3 +145,7 @@ Persistent SQLite jobs with leases, retries and recovery.
 ## How to explore
 
 Open a project's README, follow its startup instructions and demonstration, then review its design decisions and evidence. Datasets, dependencies and execution limits are explained in the linked repository. These are AI-assisted personal projects; code and tests are evidence of implementation, not employment deliverables or production adoption.
+
+## New measured projects — October 2026
+
+RescueRoute passed 36 tests and compares 20 fixed synthetic delivery days, plus ten exact eight-stop cases. PropertyPulse passed 23 tests and compares identical queries over 100,000 fictional listings before/after indexing. Full controls, raw measurements and limits are in each repository. These are new AI-assisted personal projects, not historical client deliverables.
