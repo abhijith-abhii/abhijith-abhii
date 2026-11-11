@@ -41,10 +41,28 @@ Choose a section below to explore that area on GitHub. Each directory groups rel
 | **[Cloud & DevOps](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cloud-devops)** | Docker · Terraform · CI · Kubernetes · Reliability | [5 projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cloud-devops) |
 | **[Cybersecurity & Secure Systems](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cybersecurity)** | Access restrictions · Container hardening · Network isolation | [3 security-related projects →](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects/cybersecurity) |
 
-**30 public project repositories, grouped into six primary areas.** The Cybersecurity & Secure Systems section cross-lists three projects with security controls. The original 25-project collection is included alongside Global Health Passport, Durable Queue, Contract Pipeline, PropertyPulse and RescueRoute.
+**36 public project repositories, including six embedded systems and Raspberry Pi AI projects.** The Cybersecurity & Secure Systems section cross-lists three projects with security controls. The original 25-project collection is included alongside Global Health Passport, Durable Queue, Contract Pipeline, PropertyPulse and RescueRoute.
 
 [Open the complete GitHub project directory](https://github.com/abhijith-abhii/abhijith-abhii/tree/main/projects)
 <!-- github-project-categories:end -->
+
+<!-- embedded-projects:start -->
+## Embedded systems and Raspberry Pi AI
+
+Six AI-assisted personal projects now include downloadable source, simulation evidence, measured comparisons, failure logs and hardware validation plans on my portfolio. Physical deployment remains pending.
+
+| Project | Evidence | Case study |
+|---|---|---|
+| [Machine condition monitor](https://github.com/abhijith-abhii/condition-monitor) | ESP32 cross-compilation and host signal tests | [Open](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/projects/condition-monitor/) |
+| [Environmental data logger](https://github.com/abhijith-abhii/environment-logger) | Persistent retry and deduplication simulation | [Open](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/projects/environment-logger/) |
+| [Equipment pulse recorder](https://github.com/abhijith-abhii/pulse-recorder) | Elapsed-time RPM and timer-wrap regression | [Open](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/projects/pulse-recorder/) |
+| [Classroom occupancy and lighting](https://github.com/abhijith-abhii/classroom-lighting-ai) | Person F1 0.632 → 0.736 on 78 images; conservative lighting trace | [Open](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/projects/classroom-lighting-ai/) |
+| [Parking occupancy and gate](https://github.com/abhijith-abhii/parking-gate-ai) | Vehicle F1 0.386 → 0.581; virtual obstruction interlock | [Open](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/projects/parking-gate-ai/) |
+| [Waste sorting and bin monitor](https://github.com/abhijith-abhii/waste-sorting-ai) | Known-material accuracy 62.17% → 90.27% on 452 images | [Open](https://abhijith-viswanathan-portfolio.abhijithabhi3331.chatgpt.site/projects/waste-sorting-ai/) |
+
+The Raspberry Pi projects use real pretrained inference; the waste classifier includes a trained linear head. Unknown waste rejection was only 4/21, and the conservative classroom policy increased estimated lighting energy on the scripted trace. Reports distinguish these limitations from the improvements. Each project name above links to its public GitHub repository; reports and source downloads are also available from the case studies.
+<!-- embedded-projects:end -->
+
 
 ---
 
@@ -92,3 +110,4 @@ The health platform is a synthetic prototype, without live patient deployment or
 ## Connect
 
 [LinkedIn — Abhijith Viswanathan](https://www.linkedin.com/in/abhijith-viswanathan-0a7216436/)
+
